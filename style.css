@@ -1,0 +1,73 @@
+body{
+    background:radial-gradient(white,rgb(87, 82, 82));
+    max-width:800px;
+    margin : 0 auto ;
+    text-align:center;
+    /* border-style:solid; */
+    margin-top:50px;
+    padding:40px;
+  }
+  #ever{
+    background-color:whitesmoke;
+    padding: 20px;
+    border-style:solid;
+  }
+  
+  #badge-ribbon {
+
+    position: relative;
+    background: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+  }
+  #badge-ribbon:before,
+  #badge-ribbon:after {
+    content: '';
+    position: absolute;
+    border-bottom: 70px solid red;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    top: 70px;
+    left: -10px;
+    transform: rotate(-140deg);
+  }
+  #badge-ribbon:after {
+    left: auto;
+    right: -10px;
+    transform: rotate(140deg);
+  }
+
+  h1{
+    font-size:65px;
+  }
+  h2{
+    font-size:50px;    
+  }
+  button{
+    margin:0 auto;
+    padding:5px;
+  }
+  button{
+    font-weight: bold ;
+    border-style: solid ;
+    border-color : black ;
+    border-radius: 5px;
+  }
+  #increment-btn{
+    background:linear-gradient(green,yellow);
+  }
+  #save-btn{
+    margin-top:10px;
+    background:radial-gradient(yellow,green);
+    padding: 3px 20px;
+  }
+  #decrement-btn{
+    background:linear-gradient(yellow,green);
+      margin-top:10px;
+  }
+  p{
+    color:black;
+    font-weight:bold;
+    font-size:25px;
+  }
